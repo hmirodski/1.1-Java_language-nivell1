@@ -1,6 +1,9 @@
-public class Instruments {
+abstract public class Instruments {
 
-    public static void main(String[] args) {
-        System.out.println("success");
-    }
+    String name;
+    int price;
+
+    public abstract void Play();
+
+
 }
