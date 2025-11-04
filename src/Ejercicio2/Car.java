@@ -2,11 +2,12 @@ package Ejercicio2;
 
 public class Car {
     static final String brand = "Ford";
-    static String model = "Mustang";
+    static String model = "Fiesta";
     final int power;
 
-    public Car(int power) {
+    public Car(int power, String model) {
         this.power = power;
+        this.model = model;
     }
 
     static void brake(){
