@@ -4,6 +4,10 @@ public class Percussion extends Instruments{
         super(name, price);
     }
 
+    static{
+        System.out.println("Loading Percussion class");
+    }
+
     public void Play() {
         System.out.println("Percussion instrument is playing");
     }

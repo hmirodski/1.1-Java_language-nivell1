@@ -5,6 +5,10 @@ public class Strings extends Instruments{
         super(name, price);
     }
 
+    static{
+        System.out.println("Loading Strings class");
+    };
+
     public void Play() {
        System.out.println("String instrument is playing");
     }

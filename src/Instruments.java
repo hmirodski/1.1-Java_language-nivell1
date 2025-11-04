@@ -8,6 +8,10 @@ abstract public class Instruments {
         this.price = price;
     }
 
+    static{
+        System.out.println("Loading Instruments class");
+    }
+
     public abstract void Play();
 
 
