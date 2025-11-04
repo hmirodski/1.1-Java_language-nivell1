@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 abstract public class Instruments {
 
     String name;
@@ -9,7 +11,7 @@ abstract public class Instruments {
     }
 
     static{
-        System.out.println("Loading Instruments class");
+        System.out.println("Loading Ejercicio1.Instruments class");
     }
 
     public abstract void Play();

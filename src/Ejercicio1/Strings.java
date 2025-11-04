@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class Strings extends Instruments{
 
 
@@ -5,8 +7,12 @@ public class Strings extends Instruments{
         super(name, price);
     }
 
+    static void Strings_static_method(){
+        System.out.println("Ejercicio1.Strings static method");
+    }
+
     static{
-        System.out.println("Loading Strings class");
+        System.out.println("Loading Ejercicio1.Strings class");
     };
 
     public void Play() {
