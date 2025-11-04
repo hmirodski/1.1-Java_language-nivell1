@@ -1,10 +1,5 @@
 ### IntelliJ IDEA ###
-### IntelliJ IDEA - CRITICAL ###
-.idea/
-*.iml
-*.ipr
-*.iws
-*.class
+
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
